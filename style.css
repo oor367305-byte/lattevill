@@ -78,6 +78,33 @@ h3 + p {
     color: #b0142a;
 }
 
+.header__actions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__svg {
+    cursor: pointer;
+    border: none;
+    color: #555555;
+    width: 40px;
+    height: 40px;
+    
+    display: flex;
+    align-items: center;      
+    justify-content: center;
+    background: none;
+    padding: 0;
+    margin: 0 8px;
+    border-radius: 50%; 
+    transition: color 0.3 ease;  
+}
+
+.header__svg:hover {
+    color: #b0142a
+}
+
 .main-tag {
     font-size: 30px;
 }
