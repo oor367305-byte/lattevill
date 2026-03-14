@@ -45,6 +45,8 @@ h3 + p {
     padding: 0 15px;
 }
 
+/* HEADER */
+
 .header__ul {
     display: flex;
     gap: 30px;
@@ -60,7 +62,7 @@ h3 + p {
     padding: 15px 0px;
 }
 
-.header .container{
+.header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -75,22 +77,33 @@ h3 + p {
 .header__nav a:hover {
     color: #b0142a;
 }
+
+.main-tag {
+    font-size: 30px;
+}
+
+.logo {
+    height: 45px;
+}
+
 /* WELCOME */
+
 .main .welcome {
     display: flex;
     background-color: #FFFAF6;
     justify-content: center;
     align-items: center;
     font-size: 22px;
-
-    padding: 160px 0;
+    padding-top: 235px;
+    padding-bottom: 160px;
 }
-.welcome_name {
+
+.welcome-name {
     margin-top: 3px;
     font-size: 70px;
 }
 
-.container_welcome_text {
+.container-welcome-text {
     padding: 15px;
     display: flex;
     max-width: 400px;
@@ -99,28 +112,17 @@ h3 + p {
     text-align: center;
 }
 
-.welcome_text {
+.welcome-text {
     padding: 15px;
     color: #555555;
-
 }
 
-.container_welcome_text .btn{
+.container-welcome-text .btn {
     display: block;
     margin: 30px auto 0;
 }
 
-.main_tag {
-    font-size: 30px;
-}
-
-.logo {
-    height: 45px;
-}
-
-.li__header {
-    
-}
+/* BUTTON */
 
 .btn {
     display: flex;
@@ -133,7 +135,7 @@ h3 + p {
 
     color: white;
     background: #b0142a;
-    
+
     width: 165px;
     height: 45px;
     border-radius: 9px;
@@ -142,7 +144,7 @@ h3 + p {
     font-family: "GFS Didot", serif;
     font-style: normal;
     cursor: pointer;
-    
+
     border: none;
 }
 
@@ -150,7 +152,7 @@ h3 + p {
     opacity: 0.8;
 }
 
-/* ГРИД СЕТКИ КАРТОЧКИ ИТД */
+/* GRID */
 
 .grid {
     display: grid;
@@ -161,8 +163,6 @@ h3 + p {
 .grid-cheese-items {
     padding: 120px 0;
 }
-
-
 
 .grid-item {
     display: flex;
@@ -190,7 +190,7 @@ h3 + p {
 }
 
 .card-bottom {
-    margin-top: auto;       /* ВЫТАЛКИВАЕТ ВНИЗ */
+    margin-top: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -199,7 +199,7 @@ h3 + p {
 
 .grid-item-p {
     font-size: 20px;
-    color:#555555;
+    color: #555555;
 }
 
 .grid-item-name {
@@ -215,13 +215,13 @@ h3 + p {
     margin-bottom: 10px;
 }
 
-.cheese_photo {
+.cheese-photo {
     width: 100%;
     height: 175px;
     object-fit: cover;
 }
 
-/* ФУТЕР ФУТЕР ФУТЕР */
+/* FOOTER */
 
 .footer {
     padding-top: 80px;
@@ -234,7 +234,7 @@ h3 + p {
 }
 
 .footer a:hover {
-    color: #b0142a
+    color: #b0142a;
 }
 
 .footer__inner {
@@ -246,56 +246,32 @@ h3 + p {
     border-bottom: 1px solid #555555;
 }
 
-.footer_description {
+.footer-description {
     max-width: 360px;
 }
 
-.footer .container {
-
-}
-
-.footer_nav {
-    
-}
-
-.footer_ul {
+.footer-ul {
     display: grid;
     grid-auto-flow: column;
     font-weight: bold;
     gap: 80px;
 }
 
-.footer_first_li {
+.footer-first-li {
     color: white;
 }
 
-.footer_first_li .footer_link {
-
-}
-
-.footer_link {
+.footer-link {
     color: white;
 }
 
-.inner_footer_ul {
+.inner-footer-ul {
     font-weight: 400;
     padding-top: 8px;
 }
 
-.inner_footer_li {
+.inner-footer-li {
     padding: 8px 0;
-}
-
-.footer_first_list {
-
-}
-
-.inner_footer_link {
-    color: white;
-}
-
-.images {
-
 }
 
 .rights {
@@ -306,7 +282,8 @@ h3 + p {
     align-items: center;
     text-align: center;
 }
-.footer_img {
+
+.footer-img {
     width: auto;
     height: 25px;
     object-fit: cover;
@@ -321,3 +298,7 @@ h3 + p {
     object-fit: cover;
     padding-top: 20px;
 }
+
+.footer-last-style {
+}
+
